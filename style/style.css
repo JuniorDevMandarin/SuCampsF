@@ -626,6 +626,9 @@ select {
   margin-top: 4px;
   margin-left: 62px;
 }
+option{
+  color: #21222D;
+}
 
 .input_nmae2 {
   position: absolute;
@@ -828,15 +831,4 @@ input[type="text"]:focus {
   border: none;
 }
 
-option{
-  text-align: center;
-  color: white;
-}
 
-.globe{
-  color: white;
-  position: absolute;
-  display: flex;
-  margin-top: -1px;
-  margin-left: 937px;
-}
