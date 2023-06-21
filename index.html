@@ -121,7 +121,7 @@
             </div>
           </div>
 
-          <div class="wrapper_btn">
+          <!-- <div class="wrapper_btn">
 
             <div class="surface_title">
               <p>6 weeks</p>
@@ -141,7 +141,7 @@
               <input type="radio" id="a50" name="check-substitution-2" />
               <label class="btn btn-default" for="a50"><p id="btn_text2">Choose this course</p></label>
             </div>
-          </div>
+          </div> -->
 
           <div class="wrapper_btn">
             <div class="surface_title">
@@ -283,7 +283,8 @@
   <div class="select_schedule">
     <div class="input_img">    <img src="images/Ic.png" alt=""></div>
     <select id="schedule" type="select" name="device" placeholder="choose">
-      <option value="0">Select a Schedule</option>
+      <option  value="0" >Select a Schedule</option>
+
       <option value="1">Morning</option>
       <option value="1">Afternoon</option>
     </select>
@@ -354,7 +355,7 @@
       var a25 = document.getElementById("a25");
       var a50 = document.getElementById("a50");
       var resultText1 = document.getElementById("btn_text1");
-      var resultText2 = document.getElementById("btn_text2");
+      // var resultText2 = document.getElementById("btn_text2");
       var resultText3 = document.getElementById("btn_text3");
 
       a25.addEventListener("click", function() {
@@ -363,9 +364,9 @@
           resultText1.textContent = "Choosen";
         }
 
-        if (resultText2.textContent == 'Choosen') {
-          resultText2.textContent = "Choose this course";
-        }
+        // if (resultText2.textContent == 'Choosen') {
+        //   resultText2.textContent = "Choose this course";
+        // }
 
         if (resultText3.textContent == 'Choosen') {
           resultText3.textContent = "Choose this course";
@@ -373,20 +374,20 @@
 
       });
 
-      a50.addEventListener("click", function() {
-        if (resultText2.textContent == 'Choose this course') {
-          resultText2.textContent = "Choosen";
-        }
+      // a50.addEventListener("click", function() {
+      //   if (resultText2.textContent == 'Choose this course') {
+      //     resultText2.textContent = "Choosen";
+      //   }
 
-        if (resultText1.textContent == 'Choosen') {
-          resultText1.textContent = "Choose this course";
-        }
+      //   if (resultText1.textContent == 'Choosen') {
+      //     resultText1.textContent = "Choose this course";
+      //   }
 
-        if (resultText3.textContent == 'Choosen') {
-          resultText3.textContent = "Choose this course";
-        }
+      //   if (resultText3.textContent == 'Choosen') {
+      //     resultText3.textContent = "Choose this course";
+      //   }
 
-      });
+      // });
 
       a75.addEventListener("click", function() {
         if (resultText3.textContent == 'Choose this course') {
@@ -397,9 +398,9 @@
           resultText1.textContent = "Choose this course";
         }
 
-        if (resultText2.textContent == 'Choosen') {
-          resultText2.textContent = "Choose this course";
-        }
+        // if (resultText2.textContent == 'Choosen') {
+        //   resultText2.textContent = "Choose this course";
+        // }
 
       });
 
